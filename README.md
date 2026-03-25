@@ -17,3 +17,66 @@ Hi, I'm Puneet 👋  <br><br>💻 B.Tech CSE student @ Sitare University (2026) 
 [![](https://visitcount.itsvg.in/api?id=navpuneet474-rgb&icon=0&color=0)](https://visitcount.itsvg.in)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+## 🚀 Featured Projects
+
+### 🏢 AI-Powered Hostel Operations & Access Management System
+> "Let humans talk naturally. Let the system do the structuring."
+
+A smart hostel management system that converts natural language requests into automated actions, reducing manual workload and improving efficiency.
+
+🔹 **Key Features**
+- 💬 Natural language interface for student requests  
+- ⚡ Auto-approval engine for routine requests (≤2 day leaves, guest permissions)  
+- 📄 Digital pass generation with QR codes (PDF)  
+- 🧠 Intelligent intent extraction & routing  
+- 📊 Staff dashboard with analytics & request tracking  
+- 🔐 Role-based authentication + audit logging  
+
+🔹 **Tech Stack**  
+`Django` `Django REST Framework` `PostgreSQL (Supabase)` `TailwindCSS` `JavaScript`  
+`ReportLab` `WeasyPrint` `Twilio` `SMTP`
+
+---
+
+### 🤖 AI/ML Chatbot (RAG-based Q&A System)
+A Retrieval-Augmented Generation (RAG) chatbot that answers AI/ML questions using semantic search, reranking, and LLMs.
+
+🔹 **Key Features**
+- 🔍 Semantic search using embeddings (context-aware retrieval)  
+- ⚡ Two-stage retrieval (Top-K search + reranking for accuracy)  
+- 🧠 Grounded responses (reduces hallucination using retrieved context)  
+- 💾 Answer caching for faster repeated queries  
+- 📈 Question frequency tracking & trending queries  
+- ✍️ Typo tolerance & query normalization  
+- 👍 Feedback system (thumbs up/down for quality tracking)  
+- 💬 Chat history with last 20 interactions  
+
+🔹 **Architecture (RAG Pipeline)**
+`Query → Embedding → Vector Search → Reranking → LLM → Response`
+
+🔹 **Tech Stack**  
+`Flask` `PostgreSQL (pgvector)` `SentenceTransformer`  
+`FlagEmbedding (Reranker)` `Llama 3 (Groq API)` `JavaScript`
+
+---
+
+### 📰 EduNews – Student-Focused AI News Platform
+An intelligent news aggregation platform delivering personalized, summarized, and ranked news for students.
+
+🔹 **Key Features**
+- 🧠 AI-powered article summaries with reading time  
+- 📊 Relevance scoring (recency + content + credibility)  
+- 🔍 Smart search & filtering (category, keyword, score)  
+- ⚡ Auto updates every 30 minutes  
+- 🌗 Responsive UI with dark/light mode  
+- 🧾 Explainable ranking system  
+
+🔹 **Architecture**
+- Backend: `Flask`, `PostgreSQL`, Modular Services  
+- Frontend: `React`, `TailwindCSS`, Context API  
+
+🔹 **Core Services**
+- Category Mapping Engine  
+- AI Summarization Service  
+- Relevance Scoring Engine  
+- API Cache System  
